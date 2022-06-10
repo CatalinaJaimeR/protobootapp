@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkuot@v2
+      - uses: actions/checkout@v2
