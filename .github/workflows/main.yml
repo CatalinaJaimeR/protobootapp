@@ -19,3 +19,8 @@ jobs:
       - name: buildtP
         run: mvn -B clean install --file pom.xml
   
+      - name: upload Artifact
+        uses: actions/upload-artifact@v3
+        with: 
+          name: example_maven
+          path: target/*.jar
