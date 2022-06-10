@@ -15,4 +15,7 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
           cache: 'maven'
+          
+      - name: buildtP
+        run: mvn -B clean install --file pom.xml
   
